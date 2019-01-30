@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="moodelorelaicional" id="326E9C77-DE17-FE37-CE05-C256A6B24008" version="3.5">
+<createdBy>lenovo</createdBy>
+<createdTime>2019-01-29 20:40:07 UTC</createdTime>
+<ownerDesignName>moodelorelaicional</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>326E9C77-DE17-FE37-CE05-C256A6B24008</designId>
+</OSDM_Design>
