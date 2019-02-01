@@ -1,0 +1,175 @@
+{ "id_feminicidio" : 6, "Anio:" : "2018","fecha/hora" :"2018-01-03T00:00:00.000Z", "Pais" :"Mexico",  "Lugar_feminicidio" : "camino de terracería que conduce de la localidad de Parra a Tierra Fría", 
+"Departamento" : "Guanajuato","Provincia":"Cortazar","Bariio":"","Nombre_Victima":"María del Carmen"
+,"Apellido_Victima":"Tovar Valente","Edad_Victima":32,"Nacionalidad_Victima":"Mexicana","Ocupacion":"","Nombre_Agresor":"Agusti","Apellido_Agresor":"","Edad_Agresor":22,"Nacionalidad_Agresor":
+"Mexicano","Ocupacion_Agresor":""
+,"Causa_Muerte":"golpes y asfixia"
+,"Relacion_Victima":""
+,"Tiempo_Relacion":""
+,"Agresion_Previa":""
+,"Estado_del_Caso":"Resuelto"
+,"Situacion_Agreso":"Preso"
+,"Sentencia":"Prision"
+,"Testigo":[]
+,"Tipo_Arma":"Manos"
+,"Urli":"https://periodicocorreo.com.mx/identifican-encobijada-cortazar/"
+,"Fecha_Consulta":"2019-01-15 05:00:00.000"
+,"Palabras_Clave":[]
+,"Autor":"Redacion"
+,"Categoria":"Feminicidio"
+,"Url2":"http://agoragto.com/noticias/nota-roja/capturan-presunto-asesino-de-mujer-dejada-en-canal/"
+,"fecha_consulta":"2019-01-15 05:00:00.000"
+,"Palabras_Clave2":[]
+,"Autor2":"Ágora Redacción"
+,"Categoria2":""
+,"Url3":""
+,"Fecha_Consulta3":""
+,"Palabra_Clave3":[]
+,"Autor_3":""
+,"Categoria_3":""
+}
+{ "id_feminicidio" : 7, "Anio:" : "2018","fecha/hora" :"2018-01-11T00:00:00.000Z", "Pais" :"Mexico",  "Lugar_feminicidio" : "Pinos", 
+"Departamento" : "Zacatecas","Provincia":"Pinos","Bariio":"","Nombre_Victima":"Diana María"
+,"Apellido_Victima":"","Edad_Victima":28,"Nacionalidad_Victima":"Mexicana","Ocupacion":"","Nombre_Agresor":"Sergio","Apellido_Agresor":"","Edad_Agresor":28,"Nacionalidad_Agresor":
+"Mexicano","Ocupacion_Agresor":""
+,"Causa_Muerte":"apuñalada"
+,"Relacion_Victima":"Ex-Pareja"
+,"Tiempo_Relacion":""
+,"Agresion_Previa":""
+,"Estado_del_Caso":"En invetigacion"
+,"Situacion_Agreso":"Profugo"
+,"Sentencia":""
+,"Testigo":["amiga"]
+,"Tipo_Arma":"Arma Cortopunzante"
+,"Urli":"https://zacatecasonline.com.mx/noticias/policia/61998-mata-exnovio-mujer"
+,"Fecha_Consulta":"2019-01-21 14:00:00.000"
+,"Palabras_Clave":[]
+,"Autor":"Zacatecasonline"
+,"Categoria":"Seguridad"
+,"Url2":""
+,"fecha_consulta":""
+,"Palabras_Clave2":[]
+,"Autor2":""
+,"Categoria2":""
+,"Url3":""
+,"Fecha_Consulta3":""
+,"Palabra_Clave3":[]
+,"Autor_3":""
+,"Categoria_3":""
+}
+{ "id_feminicidio" : 8, "Anio:" : "2018","fecha/hora" :"2018-01-13T00:00:00.000Z", "Pais" :"Mexico",  "Lugar_feminicidio" : "colonia San Miguel Ajusco", 
+"Departamento" : "Ciudad de México","Provincia":"Tlalpan","Bariio":"","Nombre_Victima":"Azucena"
+,"Apellido_Victima":"","Edad_Victima":25,"Nacionalidad_Victima":"Mexicana","Ocupacion":"","Nombre_Agresor":"Rubén","Apellido_Agresor":"","Edad_Agresor":29,"Nacionalidad_Agresor":
+"Mexicano","Ocupacion_Agresor":""
+,"Causa_Muerte":"golpes y desangrada"
+,"Relacion_Victima":"Novio"
+,"Tiempo_Relacion":""
+,"Agresion_Previa":"Malos Tratos"
+,"Estado_del_Caso":"Resuelto"
+,"Situacion_Agreso":"Preso"
+,"Sentencia":"Prision"
+,"Testigo":[]
+,"Tipo_Arma":"Manos"
+,"Urli":"https://www.reforma.com/aplicacioneslibre/articulo/default.aspx?id=1299953&md5=8bcff3525c6911645a8286112418365d&ta=0dfdbac11765226904c16cb9ad1b2efe&lcmd5=81e23d6a69aa84baa4e7da52c142530a"
+,"Fecha_Consulta":"2019-01-21 05:00:00.000"
+,"Palabras_Clave":[]
+,"Autor":"Antonio Nieto"
+,"Categoria":"Justicia"
+,"Url2":""
+,"fecha_consulta":""
+,"Palabras_Clave2":[]
+,"Autor2":""
+,"Categoria2":""
+,"Url3":""
+,"Fecha_Consulta3":""
+,"Palabra_Clave3":[]
+,"Autor_3":""
+,"Categoria_3":""
+}
+{ "id_feminicidio" : 9, "Anio:" : "2018","fecha/hora" :"2018-01-22T00:00:00.000Z", "Pais" :"Mexico",  "Lugar_feminicidio" : "barrio de Los Adobes", 
+"Departamento" : "Guerrero","Provincia":"Taxco de Alarcón","Bariio":"","Nombre_Victima":"Magdalena"
+,"Apellido_Victima":"Aguilar Romero","Edad_Victima":25,"Nacionalidad_Victima":"Mexicana","Ocupacion":"Nutriologa","Nombre_Agresor":"Cesar","Apellido_Agresor":"Gomez","Edad_Agresor":0,"Nacionalidad_Agresor":
+"Mexicano","Ocupacion_Agresor":""
+,"Causa_Muerte":"Herida Corto-Punzante"
+,"Relacion_Victima":"Ex-Pareja"
+,"Tiempo_Relacion":""
+,"Agresion_Previa":""
+,"Estado_del_Caso":"En investigacion"
+,"Situacion_Agreso":"Profugo"
+,"Sentencia":""
+,"Testigo":[]
+,"Tipo_Arma":"Arma_Blanca"
+,"Urli":"http://www.elgrafico.mx/la-roja/23-01-2018/asesina-descuartiza-y-cocina-su-ex-esposa-en-taxco"
+,"Fecha_Consulta":"2019-01-21 05:00:00.000"
+,"Palabras_Clave":["Feminicidio"]
+,"Autor":"Que Horror"
+,"Categoria":"Feminicidio"
+,"Url2":"https://www.infobae.com/america/mexico/2018/01/23/el-crimen-que-conmueve-a-mexico-la-mato-la-descuartizo-la-cocio-en-una-olla-y-la-guardo-en-el-refrigerador/"
+,"fecha_consulta":"2019-01-21 05:00:00.000"
+,"Palabras_Clave2":["Feminicidio"]
+,"Autor2":""
+,"Categoria2":""
+,"Url3":"http://www.eluniversal.com.mx/estados/hallan-mujer-descuartizada-en-guerrero-estaba-reportada-como-desaparecida"
+,"Fecha_Consulta3":"2019-01-21 05:00:00.000"
+,"Palabra_Clave3":["Feminicidio","Guerrero","Nutrióloga","Refrigerador","Pozole"]
+,"Autor_3":"Arturo de Dios Palma"
+,"Categoria_3":""
+}
+{ "id_feminicidio" : 10, "Anio:" : "2018","fecha/hora" :"2018-01-22T12:43:00.000Z", "Pais" :"Mexico",  "Lugar_feminicidio" : "Rio Sinaloa", 
+"Departamento" : "Sinaloa","Provincia":"Guasave","Bariio":"","Nombre_Victima":"Erika"
+,"Apellido_Victima":"","Edad_Victima":16,"Nacionalidad_Victima":"Mexicana","Ocupacion":"","Nombre_Agresor":"José","Apellido_Agresor":"","Edad_Agresor":23,"Nacionalidad_Agresor":
+"Mexicano","Ocupacion_Agresor":""
+,"Causa_Muerte":"golpes "
+,"Relacion_Victima":"Pareja"
+,"Tiempo_Relacion":""
+,"Agresion_Previa":"Malos Tratos"
+,"Estado_del_Caso":"En investigacion"
+,"Situacion_Agreso":"Profugo"
+,"Sentencia":""
+,"Testigo":[]
+,"Tipo_Arma":"Manos"
+,"Urli":"https://www.eluniversal.com.mx/estados/policia-encuentra-mujer-golpeada-en-el-rio-sinaloa"
+,"Fecha_Consulta":"2019-01-21 05:00:00.000"
+,"Palabras_Clave":["mujer golpeada","río Sinaloa","violencia en la pareja","violencia en el noviazgo","Sinaloa"]
+,"Autor":"Javier Cabrera Martínez"
+,"Categoria":"Estados"
+,"Url2":""
+,"fecha_consulta":""
+,"Palabras_Clave2":[]
+,"Autor2":""
+,"Categoria2":""
+,"Url3":""
+,"Fecha_Consulta3":""
+,"Palabra_Clave3":[]
+,"Autor_3":""
+,"Categoria_3":""
+}
+{ "id_feminicidio" : 11, "Anio:" : "2018","fecha/hora" :"2018-01-23T20:40:00.000Z", "Pais" :"Mexico",  "Lugar_feminicidio" : "Rancho San Rafael", 
+"Departamento" : "Nuevo León","Provincia":"Monterrey","Bariio":"","Nombre_Victima":"Paola"
+,"Apellido_Victima":"Sanchez Lopez","Edad_Victima":32,"Nacionalidad_Victima":"Mexicana","Ocupacion":"","Nombre_Agresor":"Ramon","Apellido_Agresor":"Lopez Lepes","Edad_Agresor":42,"Nacionalidad_Agresor":
+"Mexicano","Ocupacion_Agresor":""
+,"Causa_Muerte":"recibió tres disparos en la espalda y uno más en el hombro derecho"
+,"Relacion_Victima":"Pareja"
+,"Tiempo_Relacion":""
+,"Agresion_Previa":""
+,"Estado_del_Caso":"Resuelto"
+,"Situacion_Agreso":"Preso"
+,"Sentencia":"Prision"
+,"Testigo":["Hijos","Jefe"]
+,"Tipo_Arma":"Pistola"
+,"Urli":"http://www.milenio.com/policia/mujer-fue-asesinada-en-rancho-tras-hacer-reclamos-a-esposo"
+,"Fecha_Consulta":"2019-01-21 05:00:00.000"
+,"Texto_Completo1":"La Policía Ministerial mantiene bajo investigación al jornalero que la noche del domingo presuntamente asesinó a tiros a su esposa, en un rancho de China, Nuevo León. Las autoridades esperan que en sus declaraciones el sospechoso precise los pormenores de los hechos, así como los motivos del crimen. Una fuente policiaca identificó a la ahora occisa como Paola López Sánchez, de entre 30 y 35 años de edad. Ella recibió tres disparos en la espalda y uno más en el hombro derecho. Trascendió, por versión de los propios menores, que la pareja comenzó a discutir cuando el ama de casa le reclamó a su marido que se la pasaba bebiendo todo el tiempo. Agentes ministeriales destacamentados en China detuvieron al supuesto responsable en los alrededores del rancho donde ocurrió la tragedia. Se trata de Ramón López Lepes, de 42 años, originario de Aguililla, Michoacán, a 270 kilómetros de Morelia, y con domicilio temporal en el inmueble que cuidaba hacia el oriente de China. El homicidio tuvo lugar poco antes de las 21:00 del domingo en el rancho San Rafael, de la comunidad de San Fernandito, que se ubica a la altura del kilómetro 76 de la carretera a Méndez, Tamaulipas. Fue el propio dueño del rancho, Juan Uriel Lozano González, de 54 años, quien acudió a la comandancia de la Policía Ministerial en China para dar aviso de lo sucedido. Antes de llegar al rancho los policías capturaron al sospechoso cuando pretendía huir de la escena del crimen. Se encontraba bajo los efectos del alcohol, y llevaba en la cintura una pistola escuadra en color negro. hacer-reclamos-a-esposo"
+,"Palabras_Clave":["mujer golpeada","río Sinaloa","violencia en la pareja","violencia en el noviazgo","Sinaloa"]
+,"Autor":"AGUSTÍN MARTÍNEZ"
+,"Categoria":"Policiaca"
+,"Url2":""
+,"fecha_consulta":""
+,"Palabras_Clave2":[]
+,"Autor2":""
+,"Categoria2":""
+,"Url3":""
+,"Fecha_Consulta3":""
+,"Palabra_Clave3":[]
+,"Autor_3":""
+,"Categoria_3":""
+}
