@@ -1,0 +1,605 @@
+
+
+CREATE(Fecha:Año{FechaM:"2018"})
+CREATE(Mexico:Zona{Pais:"Mexico"})
+CREATE(Esther:Victima{Fechafeminicidio:"1/1/2018",
+	Horamuerte:"1:18:00 a. m.",
+	Lugarfeminicidio:"Calle bosque de los almendros",
+	Departamento:"Estado de México",
+	ProvinciaMunicipio:"Tecámac",
+	Nombrevict:"Esther Alicia",
+	Apellidovictima:"Castro Luzanilla",
+	Edadvictima:"35 años",
+	Nacionalidadvictima:"Mexicana",
+	Ocupacionvictima:"Ama de casa"})
+CREATE(José:Agresor{NomAgresor:"José",
+	Apellidoagresor:"López Bautista",
+	Edadagresor:"34 años",
+	Nacionalidadagresor:"Mexicano",
+	Ocupacionagresor:"Ex policia",
+	Relacionvictima:"esposo",
+	Tiemporelacion:"",
+	Agresionprevia:""})
+CREATE(Muerte:Tipo{Causamuerte:"Estrangulación y mutilacion",Armausadamuerte:"Arma blanca"})
+CREATE(Sen:Sentencia{Estadocaso:"Resuelto",
+	Situacionagresor:"Preso",
+	Sentencia:"Prision",
+	Testigos:""})
+CREATE(Not:Noticia{URL1:"https://afondoedomex.mx/zona-oriente/jose-se-estaba-comiendo-cuerpos-de-su-esposa-e-hijas-las-asesino-al-salir-de-un-retiro-espiritual/",
+	FechaUrl1:"15/1/2019",
+	TextoUrl1:"",
+	ClaveUrl1:"",
+	AutorUrl:"Redacción @ Fondo",
+	CategoriaUrl1:"Feminicidio",
+	URL2:"https://www.debate.com.mx/mexico/Mandan-a-proceso-a-expolicia-que-asesino-y-desmembro-a-su-familia-20180120-0242.html",
+	FechaUrl2:"15/1/2019",
+	TextoUrl2:"",
+	ClaveUrl2:"",
+	AutorUr2:"Valeria Estrada",
+	CategoriaUrl2:"",
+	URL3:"",
+	FechaUrl3:"",
+	TextoUrl3:"",
+	ClaveUrl3:"",
+	AutorUr3:"",
+	CategoriaUrl3:""})
+CREATE(Esther)-[:Murio]->(Muerte)
+CREATE(Esther)-[:Paismuerte]->(Mexico)
+CREATE(Esther)-[:Añomuerte]->(Fecha)
+CREATE(Esther)-[:Agresor]->(José)
+CREATE(Esther)-[:Estadocaso]->(Sen)
+CREATE(Esther)-[:Noticia]->(Not)
+
+
+
+
+
+
+CREATE(Fecha:Año{FechaM:"2018"})
+CREATE(Mexico:Zona{Pais:"Mexico"})
+CREATE(Maribel:Victima{Fechafeminicidio:"1/1/2018",
+	Horamuerte:"9:20:00 a. m.",
+	Lugarfeminicidio:"Calle Manuel González",
+	Departamento:"Chiapas",
+	ProvinciaMunicipio:"Tapachula",
+	Nombrevict:"Maribel",
+	Apellidovictima:"Vázquez Sánchez",
+	Edadvictima:"40 años",
+	Nacionalidadvictima:"Mexicana",
+	Ocupacionvictima:""})
+CREATE(Agustín:Agresor{NomAgresor:"Agustín",
+	Apellidoagresor:"N",
+	Edadagresor:"43 años",
+	Nacionalidadagresor:"Mexicano",
+	Ocupacionagresor:"",
+	Relacionvictima:"Ex-esposo",
+	Tiemporelacion:"",
+	Agresionprevia:"Malos tratos"})
+CREATE(Muerte:Tipo{Causamuerte:"Herida cortopunsante",Armausadamuerte:"Arma blanca"})
+CREATE(Sen:Sentencia{Estadocaso:"Resuelto",
+	Situacionagresor:"Preso",
+	Sentencia:"Prision",
+	Testigos:""})
+CREATE(Not:Noticia{URL1:"https://feminicidiosmx.crowdmap.com/reports/view/4790",
+	FechaUrl1:"15/1/2019",
+	TextoUrl1:"",
+	ClaveUrl1:"",
+	AutorUrl:"Rafael Victorio",
+	CategoriaUrl1:"Feminicidio",
+	URL2:"",
+	FechaUrl2:"",
+	TextoUrl2:"",
+	ClaveUrl2:"",
+	AutorUr2:"",
+	CategoriaUrl2:"",
+	URL3:"",
+	FechaUrl3:"",
+	TextoUrl3:"",
+	ClaveUrl3:"",
+	AutorUr3:"",
+	CategoriaUrl3:""})
+CREATE(Maribel)-[:Murio]->(Muerte)
+CREATE(Maribel)-[:Paismuerte]->(Mexico)
+CREATE(Maribel)-[:Añomuerte]->(Fecha)
+CREATE(Maribel)-[:Agresor]->(Agustín)
+CREATE(Maribel)-[:Estadocaso]->(Sen)
+CREATE(Maribel)-[:Noticia]->(Not)
+
+
+
+
+
+
+CREATE(Fecha:Año{FechaM:"2018"})
+CREATE(Mexico:Zona{Pais:"Mexico"})
+CREATE(Roselia:Victima{Fechafeminicidio:"1/1/2018",
+	Horamuerte:"6:00:00 a. m.",
+	Lugarfeminicidio:"Poblado de La Azucena",
+	Departamento:"Tabasco",
+	ProvinciaMunicipio:"Cardenas",
+	Nombrevict:"Roselia",
+	Apellidovictima:"",
+	Edadvictima:"",
+	Nacionalidadvictima:"Mexicana",
+	Ocupacionvictima:""})
+CREATE(German:Agresor{NomAgresor:"German",
+	Apellidoagresor:"N",
+	Edadagresor:"",
+	Nacionalidadagresor:"Mexicano",
+	Ocupacionagresor:"",
+	Relacionvictima:"",
+	Tiemporelacion:"",
+	Agresionprevia:""})
+CREATE(Muerte:Tipo{Causamuerte:"Apaleada",Armausadamuerte:"Palo"})
+CREATE(Sen:Sentencia{Estadocaso:"Resuelto",
+	Situacionagresor:"Detenido",
+	Sentencia:"Prision",
+	Testigos:"Hijo y vecinos"})
+CREATE(Not:Noticia{URL1:"http://www.noreste.net/noticia/asesinan-a-palazos-a-una-mujer-en-cardenas-tabasco/#.WkwFwO84Zqo.twitter",
+	FechaUrl1:"15/1/2019",
+	TextoUrl1:"",
+	ClaveUrl1:"",
+	AutorUrl:"Armando de la Rosa",
+	CategoriaUrl1:"Feminicidio",
+	URL2:"https://www.tabascohoy.com/nota/424102/asesinan-a-mujer-por-evitar-asalto-a-su-hijo-en-cardenas",
+	FechaUrl2:"15/1/2019",
+	TextoUrl2:"",
+	ClaveUrl2:"",
+	AutorUr2:"Darvin Osorio Sosa",
+	CategoriaUrl2:"",
+	URL3:"http://www.diariodetabasco.mx/comunidad/2018/01/02/muere-a-palazos-defender-a-hijo/",
+	FechaUrl3:"15/1/2019",
+	TextoUrl3:"",
+	ClaveUrl3:"",
+	AutorUr3:"Armando de la Rosa",
+	CategoriaUrl3:""})
+CREATE(Roselia)-[:Murio]->(Muerte)
+CREATE(Roselia)-[:Paismuerte]->(Mexico)
+CREATE(Roselia)-[:Añomuerte]->(Fecha)
+CREATE(Roselia)-[:Agresor]->(German)
+CREATE(Roselia)-[:Estadocaso]->(Sen)
+CREATE(Roselia)-[:Noticia]->(Not)
+
+
+
+
+
+
+CREATE(Fecha:Año{FechaM:"2018"})
+CREATE(Mexico:Zona{Pais:"Mexico"})
+CREATE(Diana:Victima{Fechafeminicidio:"13/1/2018",
+	Horamuerte:"",
+	Lugarfeminicidio:"Pinos",
+	Departamento:"Zacatecas",
+	ProvinciaMunicipio:"Pinos",
+	Nombrevict:"Diana María",
+	Apellidovictima:"",
+	Edadvictima:"28 años",
+	Nacionalidadvictima:"Mexicana",
+	Ocupacionvictima:""})
+CREATE(Sergio:Agresor{NomAgresor:"Sergio",
+	Apellidoagresor:"N",
+	Edadagresor:"28 años",
+	Nacionalidadagresor:"",
+	Ocupacionagresor:"",
+	Relacionvictima:"Ex Pareja",
+	Tiemporelacion:"",
+	Agresionprevia:""})
+CREATE(Muerte:Tipo{Causamuerte:"Apuñalada",Armausadamuerte:"Arma cortopunzante"})
+CREATE(Sen:Sentencia{Estadocaso:"En invetigacion",
+	Situacionagresor:"Profugo",
+	Sentencia:"",
+	Testigos:"Amiga"})
+CREATE(Not:Noticia{URL1:"https://zacatecasonline.com.mx/noticias/policia/61998-mata-exnovio-mujer",
+	FechaUrl1:"21/1/2019",
+	TextoUrl1:"",
+	ClaveUrl1:"",
+	AutorUrl:"Zacatecasonline",
+	CategoriaUrl1:"Seguridad",
+	URL2:"",
+	FechaUrl2:"",
+	TextoUrl2:"",
+	ClaveUrl2:"",
+	AutorUr2:"",
+	CategoriaUrl2:"",
+	URL3:"",
+	FechaUrl3:"",
+	TextoUrl3:"",
+	ClaveUrl3:"",
+	AutorUr3:"",
+	CategoriaUrl3:""})
+CREATE(Diana)-[:Murio]->(Muerte)
+CREATE(Diana)-[:Paismuerte]->(Mexico)
+CREATE(Diana)-[:Añomuerte]->(Fecha)
+CREATE(Diana)-[:Agresor]->(Sergio)
+CREATE(Diana)-[:Estadocaso]->(Sen)
+CREATE(Diana)-[:Noticia]->(Not)
+
+
+
+
+
+
+CREATE(Fecha:Año{FechaM:"2018"})
+CREATE(Mexico:Zona{Pais:"Mexico"})
+CREATE(Magdalena:Victima{Fechafeminicidio:"22/1/2018",
+	Horamuerte:"",
+	Lugarfeminicidio:"Barrio de Los Adobes",
+	Departamento:"Guerrero",
+	ProvinciaMunicipio:"Taxco de Alarcón",
+	Nombrevict:"Magdalena",
+	Apellidovictima:"Aguilar Romero",
+	Edadvictima:"25 años",
+	Nacionalidadvictima:"Mexicana",
+	Ocupacionvictima:"Nutriologa"})
+CREATE(Cesar:Agresor{NomAgresor:"Cesar",
+	Apellidoagresor:"Gomez",
+	Edadagresor:"",
+	Nacionalidadagresor:"",
+	Ocupacionagresor:"",
+	Relacionvictima:"",
+	Tiemporelacion:"",
+	Agresionprevia:""})
+CREATE(Muerte:Tipo{Causamuerte:"Herida corto punzante",Armausadamuerte:"Arma blanca"})
+CREATE(Sen:Sentencia{Estadocaso:"En investigacion",
+	Situacionagresor:"Profugo",
+	Sentencia:"40 años de prisión ",
+	Testigos:""})
+CREATE(Not:Noticia{URL1:"http://www.elgrafico.mx/la-roja/23-01-2018/asesina-descuartiza-y-cocina-su-ex-esposa-en-taxco",
+	FechaUrl1:"21/1/2019",
+	TextoUrl1:"",
+	ClaveUrl1:"Feminicidio",
+	AutorUrl:"Que Horror",
+	CategoriaUrl1:"",
+	URL2:"https://www.infobae.com/america/mexico/2018/01/23/el-crimen-que-conmueve-a-mexico-la-mato-la-descuartizo-la-cocio-en-una-olla-y-la-guardo-en-el-refrigerador/",
+	FechaUrl2:"21/1/2019",
+	TextoUrl2:"",
+	ClaveUrl2:"Feminicidio",
+	AutorUr2:"Desconocido",
+	CategoriaUrl2:"",
+	URL3:"http://www.eluniversal.com.mx/estados/hallan-mujer-descuartizada-en-guerrero-estaba-reportada-como-desaparecida",
+	FechaUrl3:"21/1/2019",
+	TextoUrl3:"",
+	ClaveUrl3:"Feminicidio",
+	AutorUr3:"Arturo de Dios Palma",
+	CategoriaUrl3:""})
+CREATE(Magdalena)-[:Murio]->(Muerte)
+CREATE(Magdalena)-[:Paismuerte]->(Mexico)
+CREATE(Magdalena)-[:Añomuerte]->(Fecha)
+CREATE(Magdalena)-[:Agresor]->(Cesar)
+CREATE(Magdalena)-[:Estadocaso]->(Sen)
+CREATE(Magdalena)-[:Noticia]->(Not)
+
+
+
+
+
+CREATE(Fecha:Año{FechaM:"2018"})
+CREATE(Mexico:Zona{Pais:"Mexico"})
+CREATE(Erika:Victima{Fechafeminicidio:"23/1/2018",
+	Horamuerte:"12:43:00 p. m.",
+	Lugarfeminicidio:"Rio Sinaloa",
+	Departamento:"Sinaloa",
+	ProvinciaMunicipio:"Guasave",
+	Nombrevict:"Erika",
+	Apellidovictima:"N",
+	Edadvictima:"16 años",
+	Nacionalidadvictima:"Mexicana",
+	Ocupacionvictima:""})
+CREATE(Jose:Agresor{NomAgresor:"Jose",
+	Apellidoagresor:"N",
+	Edadagresor:"23 años",
+	Nacionalidadagresor:"Mexicano",
+	Ocupacionagresor:"",
+	Relacionvictima:"Pareja",
+	Tiemporelacion:"",
+	Agresionprevia:"Malos tratos"})
+CREATE(Muerte:Tipo{Causamuerte:"Agresion fisica",Armausadamuerte:""})
+CREATE(Sen:Sentencia{Estadocaso:"En investigacion",
+	Situacionagresor:"Profugo",
+	Sentencia:"",
+	Testigos:""})
+CREATE(Not:Noticia{URL1:"https://www.eluniversal.com.mx/estados/policia-encuentra-mujer-golpeada-en-el-rio-sinaloa",
+	FechaUrl1:"21/1/2019",
+	TextoUrl1:"",
+	ClaveUrl1:"",
+	AutorUrl:"",
+	CategoriaUrl1:"Feminicidio",
+	URL2:"",
+	FechaUrl2:"",
+	TextoUrl2:"",
+	ClaveUrl2:"",
+	AutorUr2:"",
+	CategoriaUrl2:"",
+	URL3:"",
+	FechaUrl3:"",
+	TextoUrl3:"",
+	ClaveUrl3:"",
+	AutorUr3:"",
+	CategoriaUrl3:""})
+CREATE(Erika)-[:Murio]->(Muerte)
+CREATE(Erika)-[:Paismuerte]->(Mexico)
+CREATE(Erika)-[:Añomuerte]->(Fecha)
+CREATE(Erika)-[:Agresor]->(Jose)
+CREATE(Erika)-[:Estadocaso]->(Sen)
+CREATE(Erika)-[:Noticia]->(Not)
+
+
+
+
+
+CREATE(Fecha:Año{FechaM:"2018"})
+CREATE(Mexico:Zona{Pais:"Mexico"})
+CREATE(Paola:Victima{Fechafeminicidio:"23/1/2018",
+	Horamuerte:"7:40:00 p. m.",
+	Lugarfeminicidio:"Rancho San Rafael",
+	Departamento:"Nuevo León",
+	ProvinciaMunicipio:"Monterrey",
+	Nombrevict:"Paola",
+	Apellidovictima:"Sanchez Lopez",
+	Edadvictima:"32 años",
+	Nacionalidadvictima:"Mexicana",
+	Ocupacionvictima:""})
+CREATE(Ramon:Agresor{NomAgresor:"Ramon",
+	Apellidoagresor:"Lopez",
+	Edadagresor:"42 años",
+	Nacionalidadagresor:"",
+	Ocupacionagresor:"Jornalero",
+	Relacionvictima:"",
+	Tiemporelacion:"",
+	Agresionprevia:"Discusión"})
+CREATE(Muerte:Tipo{Causamuerte:"Impacto de bala",Armausadamuerte:"Arma de fuego"})
+CREATE(Sen:Sentencia{Estadocaso:"En investigacion",
+	Situacionagresor:"Detenido",
+	Sentencia:"",
+	Testigos:""})
+CREATE(Not:Noticia{URL1:"http://www.milenio.com/policia/mujer-fue-asesinada-en-rancho-tras-hacer-reclamos-a-esposo",
+	FechaUrl1:"21/1/2019",
+	TextoUrl1:"",
+	ClaveUrl1:"Agustin Martinez",
+	AutorUrl:"",
+	CategoriaUrl1:"",
+	URL2:"",
+	FechaUrl2:"",
+	TextoUrl2:"",
+	ClaveUrl2:"",
+	AutorUr2:"",
+	CategoriaUrl2:"",
+	URL3:"",
+	FechaUrl3:"",
+	TextoUrl3:"",
+	ClaveUrl3:"",
+	AutorUr3:"",
+	CategoriaUrl3:""})
+CREATE(Paola)-[:Murio]->(Muerte)
+CREATE(Paola)-[:Paismuerte]->(Mexico)
+CREATE(Paola)-[:Añomuerte]->(Fecha)
+CREATE(Paola)-[:Agresor]->(Ramon)
+CREATE(Paola)-[:Estadocaso]->(Sen)
+CREATE(Paola)-[:Noticia]->(Not)
+
+
+
+
+CREATE(Fecha:Año{FechaM:"2018"})
+CREATE(Mexico:Zona{Pais:"Mexico"})
+CREATE(Bertha:Victima{Fechafeminicidio:"24/1/2018",
+	Horamuerte:"12:00:00 p. m.",
+	Lugarfeminicidio:"Bar El Satélite, ubicado en la calle Juárez numero 202 de la Zona Centro de la localidad",
+	Departamento:"Durango",
+	ProvinciaMunicipio:"Vicente Guerrero",
+	Nombrevict:"Bertha",
+	Apellidovictima:"Garcia Sanchez",
+	Edadvictima:"38 años",
+	Nacionalidadvictima:"Mexicana",
+	Ocupacionvictima:""})
+CREATE(Pedro:Agresor{NomAgresor:"Pedro",
+	Apellidoagresor:"N",
+	Edadagresor:"18 años",
+	Nacionalidadagresor:"",
+	Ocupacionagresor:"",
+	Relacionvictima:"",
+	Tiemporelacion:"",
+	Agresionprevia:""})
+CREATE(Muerte:Tipo{Causamuerte:"Herida corto-punzante",Armausadamuerte:"Navaja"})
+CREATE(Sen:Sentencia{Estadocaso:"En investigacion",
+	Situacionagresor:"Detenido",
+	Sentencia:"",
+	Testigos:""})
+CREATE(Not:Noticia{URL1:"https://www.elsiglodedurango.com.mx/noticia/936507.lo-acusan-del-asesinato-de-mujer-en-bar-de-vicente-guerrero.html",
+	FechaUrl1:"21/1/2019",
+	TextoUrl1:"",
+	ClaveUrl1:"",
+	AutorUrl:"",
+	CategoriaUrl1:"Justicia",
+	URL2:"http://www.milenio.com/estados/identifican-a-presunto-feminicida-en-durango",
+	FechaUrl2:"21/1/2019",
+	TextoUrl2:"",
+	ClaveUrl2:"",
+	AutorUr2:"Milenio Digital",
+	CategoriaUrl2:"",
+	URL3:"",
+	FechaUrl3:"",
+	TextoUrl3:"",
+	ClaveUrl3:"",
+	AutorUr3:"",
+	CategoriaUrl3:""})
+CREATE(Bertha)-[:Murio]->(Muerte)
+CREATE(Bertha)-[:Paismuerte]->(Mexico)
+CREATE(Bertha)-[:Añomuerte]->(Fecha)
+CREATE(Bertha)-[:Agresor]->(Pedro)
+CREATE(Bertha)-[:Estadocaso]->(Sen)
+CREATE(Bertha)-[:Noticia]->(Not)
+
+
+
+
+
+
+CREATE(Fecha:Año{FechaM:"2018"})
+CREATE(Mexico:Zona{Pais:"Mexico"})
+CREATE(Maria:Victima{Fechafeminicidio:"24/1/2018",
+	Horamuerte:"",
+	Lugarfeminicidio:"Calle Rayón esquina con Privada de Rayon del Barrio de los Ángeles",
+	Departamento:"San Luis de Potosí",
+	ProvinciaMunicipio:"San Luis de Potosí",
+	Nombrevict:"Maria Luisa",
+	Apellidovictima:"",
+	Edadvictima:"32 años",
+	Nacionalidadvictima:"Mexicana",
+	Ocupacionvictima:""})
+CREATE(Apolonio:Agresor{NomAgresor:"Apolonio",
+	Apellidoagresor:"",
+	Edadagresor:"52 años",
+	Nacionalidadagresor:"",
+	Ocupacionagresor:"",
+	Relacionvictima:"Esposo",
+	Tiemporelacion:"",
+	Agresionprevia:"Violencia Intrafamiliar"})
+CREATE(Muerte:Tipo{Causamuerte:"Impacto de bala",Armausadamuerte:"Arma de fuego"})
+CREATE(Sen:Sentencia{Estadocaso:"Resuelto",
+	Situacionagresor:"Fallecido",
+	Sentencia:"",
+	Testigos:""})
+CREATE(Not:Noticia{URL1:"https://www.codigosanluis.com/sujeto-mata-esposa-suicida/
+",FechaUrl1:"21/1/2019",
+	FechaUrl1:"",
+	TextoUrl1:"",
+	ClaveUrl1:"",
+	AutorUrl:"",
+	CategoriaUrl1:"",
+	URL2:"",
+	FechaUrl2:"",
+	TextoUrl2:"",
+	ClaveUrl2:"",
+	AutorUr2:"",
+	CategoriaUrl2:"",
+	URL3:"",
+	FechaUrl3:"",
+	TextoUrl3:"",
+	ClaveUrl3:"",
+	AutorUr3:"",
+	CategoriaUrl3:""})
+CREATE(Maria)-[:Murio]->(Muerte)
+CREATE(Maria)-[:Paismuerte]->(Mexico)
+CREATE(Maria)-[:Añomuerte]->(Fecha)
+CREATE(Maria)-[:Agresor]->(Apolonio)
+CREATE(Maria)-[:Estadocaso]->(Sen)
+CREATE(Maria)-[:Noticia]->(Not)
+
+
+
+
+CREATE(Fecha:Año{FechaM:"2018"})
+CREATE(Mexico:Zona{Pais:"Mexico"})
+CREATE(Amaydani:Victima{Fechafeminicidio:"30/1/2018",
+	Horamuerte:"9:30:00 a. m.",
+	Lugarfeminicidio:"Parte posterior del palacio municipal",
+	Departamento:"San Gabriel Mixtepec",
+	ProvinciaMunicipio:"Oaxaca",
+	Nombrevict:"Amaydani",
+	Apellidovictima:"V.C",
+	Edadvictima:"24 años",
+	Nacionalidadvictima:"Mexicana",
+	Ocupacionvictima:"Licenciada en Nutricion"})
+CREATE(Jose:Agresor{NomAgresor:"Jose",
+	Apellidoagresor:"L.R",
+	Edadagresor:"24 años",
+	Nacionalidadagresor:"Mexicano",
+	Ocupacionagresor:"",
+	Relacionvictima:"Ex novio",
+	Tiemporelacion:"",
+	Agresionprevia:""})
+CREATE(Muerte:Tipo{Causamuerte:"Impacto con arma de Fuego",Armausadamuerte:"Arma de fuego"})
+CREATE(Sen:Sentencia{Estadocaso:"En investigacion",
+	Situacionagresor:"Profugo",
+	Sentencia:"",
+	Testigos:"Vecinos de la Victima"})
+CREATE(Not:Noticia{URL1:"https://www.nssoaxaca.com/2018/01/30/alertan-sobre-primer-feminicidio-del-ano-en-oaxaca/",
+	FechaUrl1:"16/1/2019",
+	TextoUrl1:"",
+	ClaveUrl1:"Femicidio",
+	AutorUrl:"Joana Suarez",
+	CategoriaUrl1:"Policiaca",
+	URL2:"https://www.nvinoticias.com/nota/83531/asesinan-licenciada-en-ixtepec-oaxaca-tenia-22-anos-buscan-su-ex-pareja",
+	FechaUrl2:"16/1/2019",
+	TextoUrl2:"",
+	ClaveUrl2:"Femicidio",
+	AutorUr2:"Tomás Martínez",
+	CategoriaUrl2:"",
+	URL3:"https://www.nvinoticias.com/nota/83698/buscan-feminicida-de-san-gabriel-mixtepec-oaxaca",
+	FechaUrl3:"17/1/2019",
+	TextoUrl3:"",
+	ClaveUrl3:"Femicidio",
+	AutorUr3:"Esteban Marcial",
+	CategoriaUrl3:""})
+CREATE(Amaydani)-[:Murio]->(Muerte)
+CREATE(Amaydani)-[:Paismuerte]->(Mexico)
+CREATE(Amaydani)-[:Añomuerte]->(Fecha)
+CREATE(Amaydani)-[:Agresor]->(Jose)
+CREATE(Amaydani)-[:Estadocaso]->(Sen)
+CREATE(Amaydani)-[:Noticia]->(Not)
+
+
+
+
+CREATE(Fecha:Año{FechaM:"2018"})
+CREATE(Mexico:Zona{Pais:"Mexico"})
+CREATE(Kimberly
+:Victima{Fechafeminicidio:"31/1/2018",
+	Horamuerte:"8:11:00 p. m.",
+	Lugarfeminicidio:"Calle Manuel González",
+	Departamento:"Chiapas",
+	ProvinciaMunicipio:"Tapachula",
+	Nombrevict:"Kimberly",
+	Apellidovictima:"Kriste",
+	Edadvictima:"17 Años",
+	Nacionalidadvictima:"Mexicana",
+	Ocupacionvictima:""})
+CREATE(Bladimir:Agresor{NomAgresor:"Bladimir",
+	Apellidoagresor:"N",
+	Edadagresor:"43 años",
+	Nacionalidadagresor:"Mexicano",
+	Ocupacionagresor:"",
+	Relacionvictima:"",
+	Tiemporelacion:"",
+	Agresionprevia:""})
+CREATE(Francisco:Agresor{NomAgresor:"Francisco",
+	Apellidoagresor:"N",
+	Edadagresor:"43 años",
+	Nacionalidadagresor:"Mexicano",
+	Ocupacionagresor:"",
+	Relacionvictima:"",
+	Tiemporelacion:"",
+	Agresionprevia:""})
+CREATE(Muerte:Tipo{Causamuerte:"Secuestro y Ejecutamiento
+",Armausadamuerte:""})
+CREATE(Sen:Sentencia{Estadocaso:"Resuelto",
+	Situacionagresor:"Preso",
+	Sentencia:"Prision",
+	Testigos:""})
+CREATE(Not:Noticia{URL1:"",
+	FechaUrl1:"",
+	TextoUrl1:"",
+	ClaveUrl1:"",
+	AutorUrl:"",
+	CategoriaUrl1:"",
+	URL2:"",
+	FechaUrl2:"",
+	TextoUrl2:"",
+	ClaveUrl2:"",
+	AutorUr2:"",
+	CategoriaUrl2:"",
+	URL3:"",
+	FechaUrl3:"",
+	TextoUrl3:"",
+	ClaveUrl3:"",
+	AutorUr3:"",
+	CategoriaUrl3:""})
+CREATE(Kimberly)-[:Murio]->(Muerte)
+CREATE(Kimberly)-[:Paismuerte]->(Mexico)
+CREATE(Kimberly)-[:Añomuerte]->(Fecha)
+CREATE(Kimberly)-[:Agresor]->(Bladimir)
+CREATE(Kimberly)-[:Agresor]->(Francisco)
+CREATE(Kimberly)-[:Estadocaso]->(Sen)
+CREATE(Kimberly)-[:Noticia]->(Not)
