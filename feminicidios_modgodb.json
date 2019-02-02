@@ -1,6 +1,6 @@
 { "id_feminicidio" : 6, "Anio:" : "2018","fecha/hora" :"2018-01-03T00:00:00.000Z", "Pais" :"Mexico",  "Lugar_feminicidio" : "camino de terracería que conduce de la localidad de Parra a Tierra Fría", 
 "Departamento" : "Guanajuato","Provincia":"Cortazar","Bariio":"","Nombre_Victima":"María del Carmen"
-,"Apellido_Victima":"Tovar Valente","Edad_Victima":32,"Nacionalidad_Victima":"Mexicana","Ocupacion":"","Nombre_Agresor":"Agusti","Apellido_Agresor":"","Edad_Agresor":22,"Nacionalidad_Agresor":
+,"Apellido_Victima":"Tovar Valente","Edad_Victima":32,"Nacionalidad_Victima":"Mexicana","Ocupacion_Victima":"","Nombre_Agresor":"Agusti","Apellido_Agresor":"","Edad_Agresor":22,"Nacionalidad_Agresor":
 "Mexicano","Ocupacion_Agresor":""
 ,"Causa_Muerte":"golpes y asfixia"
 ,"Relacion_Victima":""
@@ -29,7 +29,7 @@
 }
 { "id_feminicidio" : 7, "Anio:" : "2018","fecha/hora" :"2018-01-11T00:00:00.000Z", "Pais" :"Mexico",  "Lugar_feminicidio" : "Pinos", 
 "Departamento" : "Zacatecas","Provincia":"Pinos","Bariio":"","Nombre_Victima":"Diana María"
-,"Apellido_Victima":"","Edad_Victima":28,"Nacionalidad_Victima":"Mexicana","Ocupacion":"","Nombre_Agresor":"Sergio","Apellido_Agresor":"","Edad_Agresor":28,"Nacionalidad_Agresor":
+,"Apellido_Victima":"","Edad_Victima":28,"Nacionalidad_Victima":"Mexicana","Ocupacion_Victima":"","Nombre_Agresor":"Sergio","Apellido_Agresor":"","Edad_Agresor":28,"Nacionalidad_Agresor":
 "Mexicano","Ocupacion_Agresor":""
 ,"Causa_Muerte":"apuñalada"
 ,"Relacion_Victima":"Ex-Pareja"
@@ -58,7 +58,7 @@
 }
 { "id_feminicidio" : 8, "Anio:" : "2018","fecha/hora" :"2018-01-13T00:00:00.000Z", "Pais" :"Mexico",  "Lugar_feminicidio" : "colonia San Miguel Ajusco", 
 "Departamento" : "Ciudad de México","Provincia":"Tlalpan","Bariio":"","Nombre_Victima":"Azucena"
-,"Apellido_Victima":"","Edad_Victima":25,"Nacionalidad_Victima":"Mexicana","Ocupacion":"","Nombre_Agresor":"Rubén","Apellido_Agresor":"","Edad_Agresor":29,"Nacionalidad_Agresor":
+,"Apellido_Victima":"","Edad_Victima":25,"Nacionalidad_Victima":"Mexicana","Ocupacion_Victima":"","Nombre_Agresor":"Rubén","Apellido_Agresor":"","Edad_Agresor":29,"Nacionalidad_Agresor":
 "Mexicano","Ocupacion_Agresor":""
 ,"Causa_Muerte":"golpes y desangrada"
 ,"Relacion_Victima":"Novio"
@@ -87,7 +87,7 @@
 }
 { "id_feminicidio" : 9, "Anio:" : "2018","fecha/hora" :"2018-01-22T00:00:00.000Z", "Pais" :"Mexico",  "Lugar_feminicidio" : "barrio de Los Adobes", 
 "Departamento" : "Guerrero","Provincia":"Taxco de Alarcón","Bariio":"","Nombre_Victima":"Magdalena"
-,"Apellido_Victima":"Aguilar Romero","Edad_Victima":25,"Nacionalidad_Victima":"Mexicana","Ocupacion":"Nutriologa","Nombre_Agresor":"Cesar","Apellido_Agresor":"Gomez","Edad_Agresor":0,"Nacionalidad_Agresor":
+,"Apellido_Victima":"Aguilar Romero","Edad_Victima":25,"Nacionalidad_Victima":"Mexicana","Ocupacion_Victima":"Nutriologa","Nombre_Agresor":"Cesar","Apellido_Agresor":"Gomez","Edad_Agresor":0,"Nacionalidad_Agresor":
 "Mexicano","Ocupacion_Agresor":""
 ,"Causa_Muerte":"Herida Corto-Punzante"
 ,"Relacion_Victima":"Ex-Pareja"
@@ -116,7 +116,8 @@
 }
 { "id_feminicidio" : 10, "Anio:" : "2018","fecha/hora" :"2018-01-22T12:43:00.000Z", "Pais" :"Mexico",  "Lugar_feminicidio" : "Rio Sinaloa", 
 "Departamento" : "Sinaloa","Provincia":"Guasave","Bariio":"","Nombre_Victima":"Erika"
-,"Apellido_Victima":"","Edad_Victima":16,"Nacionalidad_Victima":"Mexicana","Ocupacion":"","Nombre_Agresor":"José","Apellido_Agresor":"","Edad_Agresor":23,"Nacionalidad_Agresor":
+,"Apellido_Victima":"","Edad_Victima":16,"Nacionalidad_Victima":"Mexicana","Ocupacion_Victima":"","Nombre_Agresor":"José","Apellido_Agresor":""
+,"Edad_Agresor":23,"Nacionalidad_Agresor":
 "Mexicano","Ocupacion_Agresor":""
 ,"Causa_Muerte":"golpes "
 ,"Relacion_Victima":"Pareja"
@@ -145,7 +146,7 @@
 }
 { "id_feminicidio" : 11, "Anio:" : "2018","fecha/hora" :"2018-01-23T20:40:00.000Z", "Pais" :"Mexico",  "Lugar_feminicidio" : "Rancho San Rafael", 
 "Departamento" : "Nuevo León","Provincia":"Monterrey","Bariio":"","Nombre_Victima":"Paola"
-,"Apellido_Victima":"Sanchez Lopez","Edad_Victima":32,"Nacionalidad_Victima":"Mexicana","Ocupacion":"","Nombre_Agresor":"Ramon","Apellido_Agresor":"Lopez Lepes","Edad_Agresor":42,"Nacionalidad_Agresor":
+,"Apellido_Victima":"Sanchez Lopez","Edad_Victima":32,"Nacionalidad_Victima":"Mexicana","Ocupacion_Victima":"","Nombre_Agresor":"Ramon","Apellido_Agresor":"Lopez Lepes","Edad_Agresor":42,"Nacionalidad_Agresor":
 "Mexicano","Ocupacion_Agresor":""
 ,"Causa_Muerte":"recibió tres disparos en la espalda y uno más en el hombro derecho"
 ,"Relacion_Victima":"Pareja"
