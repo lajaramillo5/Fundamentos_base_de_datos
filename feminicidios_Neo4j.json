@@ -1,7 +1,6 @@
-
-
 CREATE(Fecha:Año{FechaM:"2018"})
 CREATE(Mexico:Zona{Pais:"Mexico"})
+
 CREATE(Esther:Victima{Fechafeminicidio:"1/1/2018",
 	Horamuerte:"1:18:00 a. m.",
 	Lugarfeminicidio:"Calle bosque de los almendros",
@@ -12,7 +11,7 @@ CREATE(Esther:Victima{Fechafeminicidio:"1/1/2018",
 	Edadvictima:"35 años",
 	Nacionalidadvictima:"Mexicana",
 	Ocupacionvictima:"Ama de casa"})
-CREATE(José:Agresor{NomAgresor:"José",
+CREATE(José:Agresor1{NomAgresor:"Jose",
 	Apellidoagresor:"López Bautista",
 	Edadagresor:"34 años",
 	Nacionalidadagresor:"Mexicano",
@@ -20,12 +19,12 @@ CREATE(José:Agresor{NomAgresor:"José",
 	Relacionvictima:"esposo",
 	Tiemporelacion:"",
 	Agresionprevia:""})
-CREATE(Muerte:Tipo{Causamuerte:"Estrangulación y mutilacion",Armausadamuerte:"Arma blanca"})
-CREATE(Sen:Sentencia{Estadocaso:"Resuelto",
+CREATE(Muerte1:Tipo{Causamuerte:"Estrangulación y mutilacion",Armausadamuerte:"Arma blanca"})
+CREATE(Sen1:Sentencia{Estadocaso:"Resuelto",
 	Situacionagresor:"Preso",
 	Sentencia:"Prision",
 	Testigos:""})
-CREATE(Not:Noticia{URL1:"https://afondoedomex.mx/zona-oriente/jose-se-estaba-comiendo-cuerpos-de-su-esposa-e-hijas-las-asesino-al-salir-de-un-retiro-espiritual/",
+CREATE(Not1:Noticia{URL1:"https://afondoedomex.mx/zona-oriente/jose-se-estaba-comiendo-cuerpos-de-su-esposa-e-hijas-las-asesino-al-salir-de-un-retiro-espiritual/",
 	FechaUrl1:"15/1/2019",
 	TextoUrl1:"",
 	ClaveUrl1:"",
@@ -43,21 +42,9 @@ CREATE(Not:Noticia{URL1:"https://afondoedomex.mx/zona-oriente/jose-se-estaba-com
 	ClaveUrl3:"",
 	AutorUr3:"",
 	CategoriaUrl3:""})
-CREATE(Esther)-[:Murio]->(Muerte)
-CREATE(Esther)-[:Paismuerte]->(Mexico)
-CREATE(Esther)-[:Añomuerte]->(Fecha)
-CREATE(Esther)-[:Agresor]->(José)
-CREATE(Esther)-[:Estadocaso]->(Sen)
-CREATE(Esther)-[:Noticia]->(Not)
 
 
-
-
-
-
-CREATE(Fecha:Año{FechaM:"2018"})
-CREATE(Mexico:Zona{Pais:"Mexico"})
-CREATE(Maribel:Victima{Fechafeminicidio:"1/1/2018",
+	CREATE(Maribel:Victima{Fechafeminicidio:"1/1/2018",
 	Horamuerte:"9:20:00 a. m.",
 	Lugarfeminicidio:"Calle Manuel González",
 	Departamento:"Chiapas",
@@ -67,7 +54,7 @@ CREATE(Maribel:Victima{Fechafeminicidio:"1/1/2018",
 	Edadvictima:"40 años",
 	Nacionalidadvictima:"Mexicana",
 	Ocupacionvictima:""})
-CREATE(Agustín:Agresor{NomAgresor:"Agustín",
+CREATE(Agustín:Agresor2{NomAgresor:"Agustín",
 	Apellidoagresor:"N",
 	Edadagresor:"43 años",
 	Nacionalidadagresor:"Mexicano",
@@ -75,12 +62,12 @@ CREATE(Agustín:Agresor{NomAgresor:"Agustín",
 	Relacionvictima:"Ex-esposo",
 	Tiemporelacion:"",
 	Agresionprevia:"Malos tratos"})
-CREATE(Muerte:Tipo{Causamuerte:"Herida cortopunsante",Armausadamuerte:"Arma blanca"})
-CREATE(Sen:Sentencia{Estadocaso:"Resuelto",
+CREATE(Muerte2:Tipo{Causamuerte:"Herida cortopunsante",Armausadamuerte:"Arma blanca"})
+CREATE(Sen2:Sentencia{Estadocaso:"Resuelto",
 	Situacionagresor:"Preso",
 	Sentencia:"Prision",
 	Testigos:""})
-CREATE(Not:Noticia{URL1:"https://feminicidiosmx.crowdmap.com/reports/view/4790",
+CREATE(Not2:Noticia{URL1:"https://feminicidiosmx.crowdmap.com/reports/view/4790",
 	FechaUrl1:"15/1/2019",
 	TextoUrl1:"",
 	ClaveUrl1:"",
@@ -98,20 +85,8 @@ CREATE(Not:Noticia{URL1:"https://feminicidiosmx.crowdmap.com/reports/view/4790",
 	ClaveUrl3:"",
 	AutorUr3:"",
 	CategoriaUrl3:""})
-CREATE(Maribel)-[:Murio]->(Muerte)
-CREATE(Maribel)-[:Paismuerte]->(Mexico)
-CREATE(Maribel)-[:Añomuerte]->(Fecha)
-CREATE(Maribel)-[:Agresor]->(Agustín)
-CREATE(Maribel)-[:Estadocaso]->(Sen)
-CREATE(Maribel)-[:Noticia]->(Not)
 
 
-
-
-
-
-CREATE(Fecha:Año{FechaM:"2018"})
-CREATE(Mexico:Zona{Pais:"Mexico"})
 CREATE(Roselia:Victima{Fechafeminicidio:"1/1/2018",
 	Horamuerte:"6:00:00 a. m.",
 	Lugarfeminicidio:"Poblado de La Azucena",
@@ -122,7 +97,7 @@ CREATE(Roselia:Victima{Fechafeminicidio:"1/1/2018",
 	Edadvictima:"",
 	Nacionalidadvictima:"Mexicana",
 	Ocupacionvictima:""})
-CREATE(German:Agresor{NomAgresor:"German",
+CREATE(German:Agresor3{NomAgresor:"German",
 	Apellidoagresor:"N",
 	Edadagresor:"",
 	Nacionalidadagresor:"Mexicano",
@@ -130,12 +105,12 @@ CREATE(German:Agresor{NomAgresor:"German",
 	Relacionvictima:"",
 	Tiemporelacion:"",
 	Agresionprevia:""})
-CREATE(Muerte:Tipo{Causamuerte:"Apaleada",Armausadamuerte:"Palo"})
-CREATE(Sen:Sentencia{Estadocaso:"Resuelto",
+CREATE(Muerte3:Tipo{Causamuerte:"Apaleada",Armausadamuerte:"Palo"})
+CREATE(Sen3:Sentencia{Estadocaso:"Resuelto",
 	Situacionagresor:"Detenido",
 	Sentencia:"Prision",
 	Testigos:"Hijo y vecinos"})
-CREATE(Not:Noticia{URL1:"http://www.noreste.net/noticia/asesinan-a-palazos-a-una-mujer-en-cardenas-tabasco/#.WkwFwO84Zqo.twitter",
+CREATE(Not3:Noticia{URL1:"http://www.noreste.net/noticia/asesinan-a-palazos-a-una-mujer-en-cardenas-tabasco/#.WkwFwO84Zqo.twitter",
 	FechaUrl1:"15/1/2019",
 	TextoUrl1:"",
 	ClaveUrl1:"",
@@ -153,20 +128,8 @@ CREATE(Not:Noticia{URL1:"http://www.noreste.net/noticia/asesinan-a-palazos-a-una
 	ClaveUrl3:"",
 	AutorUr3:"Armando de la Rosa",
 	CategoriaUrl3:""})
-CREATE(Roselia)-[:Murio]->(Muerte)
-CREATE(Roselia)-[:Paismuerte]->(Mexico)
-CREATE(Roselia)-[:Añomuerte]->(Fecha)
-CREATE(Roselia)-[:Agresor]->(German)
-CREATE(Roselia)-[:Estadocaso]->(Sen)
-CREATE(Roselia)-[:Noticia]->(Not)
 
 
-
-
-
-
-CREATE(Fecha:Año{FechaM:"2018"})
-CREATE(Mexico:Zona{Pais:"Mexico"})
 CREATE(Diana:Victima{Fechafeminicidio:"13/1/2018",
 	Horamuerte:"",
 	Lugarfeminicidio:"Pinos",
@@ -177,7 +140,7 @@ CREATE(Diana:Victima{Fechafeminicidio:"13/1/2018",
 	Edadvictima:"28 años",
 	Nacionalidadvictima:"Mexicana",
 	Ocupacionvictima:""})
-CREATE(Sergio:Agresor{NomAgresor:"Sergio",
+CREATE(Sergio:Agresor4{NomAgresor:"Sergio",
 	Apellidoagresor:"N",
 	Edadagresor:"28 años",
 	Nacionalidadagresor:"",
@@ -185,12 +148,12 @@ CREATE(Sergio:Agresor{NomAgresor:"Sergio",
 	Relacionvictima:"Ex Pareja",
 	Tiemporelacion:"",
 	Agresionprevia:""})
-CREATE(Muerte:Tipo{Causamuerte:"Apuñalada",Armausadamuerte:"Arma cortopunzante"})
-CREATE(Sen:Sentencia{Estadocaso:"En invetigacion",
+CREATE(Muerte4:Tipo{Causamuerte:"Apuñalada",Armausadamuerte:"Arma cortopunzante"})
+CREATE(Sen4:Sentencia{Estadocaso:"En invetigacion",
 	Situacionagresor:"Profugo",
 	Sentencia:"",
 	Testigos:"Amiga"})
-CREATE(Not:Noticia{URL1:"https://zacatecasonline.com.mx/noticias/policia/61998-mata-exnovio-mujer",
+CREATE(Not4:Noticia{URL1:"https://zacatecasonline.com.mx/noticias/policia/61998-mata-exnovio-mujer",
 	FechaUrl1:"21/1/2019",
 	TextoUrl1:"",
 	ClaveUrl1:"",
@@ -208,20 +171,9 @@ CREATE(Not:Noticia{URL1:"https://zacatecasonline.com.mx/noticias/policia/61998-m
 	ClaveUrl3:"",
 	AutorUr3:"",
 	CategoriaUrl3:""})
-CREATE(Diana)-[:Murio]->(Muerte)
-CREATE(Diana)-[:Paismuerte]->(Mexico)
-CREATE(Diana)-[:Añomuerte]->(Fecha)
-CREATE(Diana)-[:Agresor]->(Sergio)
-CREATE(Diana)-[:Estadocaso]->(Sen)
-CREATE(Diana)-[:Noticia]->(Not)
 
 
 
-
-
-
-CREATE(Fecha:Año{FechaM:"2018"})
-CREATE(Mexico:Zona{Pais:"Mexico"})
 CREATE(Magdalena:Victima{Fechafeminicidio:"22/1/2018",
 	Horamuerte:"",
 	Lugarfeminicidio:"Barrio de Los Adobes",
@@ -232,7 +184,7 @@ CREATE(Magdalena:Victima{Fechafeminicidio:"22/1/2018",
 	Edadvictima:"25 años",
 	Nacionalidadvictima:"Mexicana",
 	Ocupacionvictima:"Nutriologa"})
-CREATE(Cesar:Agresor{NomAgresor:"Cesar",
+CREATE(Cesar:Agresor5{NomAgresor:"Cesar",
 	Apellidoagresor:"Gomez",
 	Edadagresor:"",
 	Nacionalidadagresor:"",
@@ -240,12 +192,12 @@ CREATE(Cesar:Agresor{NomAgresor:"Cesar",
 	Relacionvictima:"",
 	Tiemporelacion:"",
 	Agresionprevia:""})
-CREATE(Muerte:Tipo{Causamuerte:"Herida corto punzante",Armausadamuerte:"Arma blanca"})
-CREATE(Sen:Sentencia{Estadocaso:"En investigacion",
+CREATE(Muerte5:Tipo{Causamuerte:"Herida corto punzante",Armausadamuerte:"Arma blanca"})
+CREATE(Sen5:Sentencia{Estadocaso:"En investigacion",
 	Situacionagresor:"Profugo",
 	Sentencia:"40 años de prisión ",
 	Testigos:""})
-CREATE(Not:Noticia{URL1:"http://www.elgrafico.mx/la-roja/23-01-2018/asesina-descuartiza-y-cocina-su-ex-esposa-en-taxco",
+CREATE(Not5:Noticia{URL1:"http://www.elgrafico.mx/la-roja/23-01-2018/asesina-descuartiza-y-cocina-su-ex-esposa-en-taxco",
 	FechaUrl1:"21/1/2019",
 	TextoUrl1:"",
 	ClaveUrl1:"Feminicidio",
@@ -263,19 +215,9 @@ CREATE(Not:Noticia{URL1:"http://www.elgrafico.mx/la-roja/23-01-2018/asesina-desc
 	ClaveUrl3:"Feminicidio",
 	AutorUr3:"Arturo de Dios Palma",
 	CategoriaUrl3:""})
-CREATE(Magdalena)-[:Murio]->(Muerte)
-CREATE(Magdalena)-[:Paismuerte]->(Mexico)
-CREATE(Magdalena)-[:Añomuerte]->(Fecha)
-CREATE(Magdalena)-[:Agresor]->(Cesar)
-CREATE(Magdalena)-[:Estadocaso]->(Sen)
-CREATE(Magdalena)-[:Noticia]->(Not)
 
 
 
-
-
-CREATE(Fecha:Año{FechaM:"2018"})
-CREATE(Mexico:Zona{Pais:"Mexico"})
 CREATE(Erika:Victima{Fechafeminicidio:"23/1/2018",
 	Horamuerte:"12:43:00 p. m.",
 	Lugarfeminicidio:"Rio Sinaloa",
@@ -286,7 +228,7 @@ CREATE(Erika:Victima{Fechafeminicidio:"23/1/2018",
 	Edadvictima:"16 años",
 	Nacionalidadvictima:"Mexicana",
 	Ocupacionvictima:""})
-CREATE(Jose:Agresor{NomAgresor:"Jose",
+CREATE(Josee:Agresor6{NomAgresor:"Josee",
 	Apellidoagresor:"N",
 	Edadagresor:"23 años",
 	Nacionalidadagresor:"Mexicano",
@@ -294,12 +236,12 @@ CREATE(Jose:Agresor{NomAgresor:"Jose",
 	Relacionvictima:"Pareja",
 	Tiemporelacion:"",
 	Agresionprevia:"Malos tratos"})
-CREATE(Muerte:Tipo{Causamuerte:"Agresion fisica",Armausadamuerte:""})
-CREATE(Sen:Sentencia{Estadocaso:"En investigacion",
+CREATE(Muerte6:Tipo{Causamuerte:"Agresion fisica",Armausadamuerte:""})
+CREATE(Sen6:Sentencia{Estadocaso:"En investigacion",
 	Situacionagresor:"Profugo",
 	Sentencia:"",
 	Testigos:""})
-CREATE(Not:Noticia{URL1:"https://www.eluniversal.com.mx/estados/policia-encuentra-mujer-golpeada-en-el-rio-sinaloa",
+CREATE(Not6:Noticia{URL1:"https://www.eluniversal.com.mx/estados/policia-encuentra-mujer-golpeada-en-el-rio-sinaloa",
 	FechaUrl1:"21/1/2019",
 	TextoUrl1:"",
 	ClaveUrl1:"",
@@ -317,19 +259,9 @@ CREATE(Not:Noticia{URL1:"https://www.eluniversal.com.mx/estados/policia-encuentr
 	ClaveUrl3:"",
 	AutorUr3:"",
 	CategoriaUrl3:""})
-CREATE(Erika)-[:Murio]->(Muerte)
-CREATE(Erika)-[:Paismuerte]->(Mexico)
-CREATE(Erika)-[:Añomuerte]->(Fecha)
-CREATE(Erika)-[:Agresor]->(Jose)
-CREATE(Erika)-[:Estadocaso]->(Sen)
-CREATE(Erika)-[:Noticia]->(Not)
 
 
 
-
-
-CREATE(Fecha:Año{FechaM:"2018"})
-CREATE(Mexico:Zona{Pais:"Mexico"})
 CREATE(Paola:Victima{Fechafeminicidio:"23/1/2018",
 	Horamuerte:"7:40:00 p. m.",
 	Lugarfeminicidio:"Rancho San Rafael",
@@ -340,7 +272,7 @@ CREATE(Paola:Victima{Fechafeminicidio:"23/1/2018",
 	Edadvictima:"32 años",
 	Nacionalidadvictima:"Mexicana",
 	Ocupacionvictima:""})
-CREATE(Ramon:Agresor{NomAgresor:"Ramon",
+CREATE(Ramon:Agresor7{NomAgresor:"Ramon",
 	Apellidoagresor:"Lopez",
 	Edadagresor:"42 años",
 	Nacionalidadagresor:"",
@@ -348,12 +280,12 @@ CREATE(Ramon:Agresor{NomAgresor:"Ramon",
 	Relacionvictima:"",
 	Tiemporelacion:"",
 	Agresionprevia:"Discusión"})
-CREATE(Muerte:Tipo{Causamuerte:"Impacto de bala",Armausadamuerte:"Arma de fuego"})
-CREATE(Sen:Sentencia{Estadocaso:"En investigacion",
+CREATE(Muerte7:Tipo{Causamuerte:"Impacto de bala",Armausadamuerte:"Arma de fuego"})
+CREATE(Sen7:Sentencia{Estadocaso:"En investigacion",
 	Situacionagresor:"Detenido",
 	Sentencia:"",
 	Testigos:""})
-CREATE(Not:Noticia{URL1:"http://www.milenio.com/policia/mujer-fue-asesinada-en-rancho-tras-hacer-reclamos-a-esposo",
+CREATE(Not7:Noticia{URL1:"http://www.milenio.com/policia/mujer-fue-asesinada-en-rancho-tras-hacer-reclamos-a-esposo",
 	FechaUrl1:"21/1/2019",
 	TextoUrl1:"",
 	ClaveUrl1:"Agustin Martinez",
@@ -371,18 +303,7 @@ CREATE(Not:Noticia{URL1:"http://www.milenio.com/policia/mujer-fue-asesinada-en-r
 	ClaveUrl3:"",
 	AutorUr3:"",
 	CategoriaUrl3:""})
-CREATE(Paola)-[:Murio]->(Muerte)
-CREATE(Paola)-[:Paismuerte]->(Mexico)
-CREATE(Paola)-[:Añomuerte]->(Fecha)
-CREATE(Paola)-[:Agresor]->(Ramon)
-CREATE(Paola)-[:Estadocaso]->(Sen)
-CREATE(Paola)-[:Noticia]->(Not)
 
-
-
-
-CREATE(Fecha:Año{FechaM:"2018"})
-CREATE(Mexico:Zona{Pais:"Mexico"})
 CREATE(Bertha:Victima{Fechafeminicidio:"24/1/2018",
 	Horamuerte:"12:00:00 p. m.",
 	Lugarfeminicidio:"Bar El Satélite, ubicado en la calle Juárez numero 202 de la Zona Centro de la localidad",
@@ -393,7 +314,7 @@ CREATE(Bertha:Victima{Fechafeminicidio:"24/1/2018",
 	Edadvictima:"38 años",
 	Nacionalidadvictima:"Mexicana",
 	Ocupacionvictima:""})
-CREATE(Pedro:Agresor{NomAgresor:"Pedro",
+CREATE(Pedro:Agresor8{NomAgresor:"Pedro",
 	Apellidoagresor:"N",
 	Edadagresor:"18 años",
 	Nacionalidadagresor:"",
@@ -401,12 +322,12 @@ CREATE(Pedro:Agresor{NomAgresor:"Pedro",
 	Relacionvictima:"",
 	Tiemporelacion:"",
 	Agresionprevia:""})
-CREATE(Muerte:Tipo{Causamuerte:"Herida corto-punzante",Armausadamuerte:"Navaja"})
-CREATE(Sen:Sentencia{Estadocaso:"En investigacion",
+CREATE(Muerte8:Tipo{Causamuerte:"Herida corto-punzante",Armausadamuerte:"Navaja"})
+CREATE(Sen8:Sentencia{Estadocaso:"En investigacion",
 	Situacionagresor:"Detenido",
 	Sentencia:"",
 	Testigos:""})
-CREATE(Not:Noticia{URL1:"https://www.elsiglodedurango.com.mx/noticia/936507.lo-acusan-del-asesinato-de-mujer-en-bar-de-vicente-guerrero.html",
+CREATE(Not8:Noticia{URL1:"https://www.elsiglodedurango.com.mx/noticia/936507.lo-acusan-del-asesinato-de-mujer-en-bar-de-vicente-guerrero.html",
 	FechaUrl1:"21/1/2019",
 	TextoUrl1:"",
 	ClaveUrl1:"",
@@ -424,20 +345,7 @@ CREATE(Not:Noticia{URL1:"https://www.elsiglodedurango.com.mx/noticia/936507.lo-a
 	ClaveUrl3:"",
 	AutorUr3:"",
 	CategoriaUrl3:""})
-CREATE(Bertha)-[:Murio]->(Muerte)
-CREATE(Bertha)-[:Paismuerte]->(Mexico)
-CREATE(Bertha)-[:Añomuerte]->(Fecha)
-CREATE(Bertha)-[:Agresor]->(Pedro)
-CREATE(Bertha)-[:Estadocaso]->(Sen)
-CREATE(Bertha)-[:Noticia]->(Not)
 
-
-
-
-
-
-CREATE(Fecha:Año{FechaM:"2018"})
-CREATE(Mexico:Zona{Pais:"Mexico"})
 CREATE(Maria:Victima{Fechafeminicidio:"24/1/2018",
 	Horamuerte:"",
 	Lugarfeminicidio:"Calle Rayón esquina con Privada de Rayon del Barrio de los Ángeles",
@@ -448,7 +356,7 @@ CREATE(Maria:Victima{Fechafeminicidio:"24/1/2018",
 	Edadvictima:"32 años",
 	Nacionalidadvictima:"Mexicana",
 	Ocupacionvictima:""})
-CREATE(Apolonio:Agresor{NomAgresor:"Apolonio",
+CREATE(Apolonio:Agresor9{NomAgresor:"Apolonio",
 	Apellidoagresor:"",
 	Edadagresor:"52 años",
 	Nacionalidadagresor:"",
@@ -456,13 +364,12 @@ CREATE(Apolonio:Agresor{NomAgresor:"Apolonio",
 	Relacionvictima:"Esposo",
 	Tiemporelacion:"",
 	Agresionprevia:"Violencia Intrafamiliar"})
-CREATE(Muerte:Tipo{Causamuerte:"Impacto de bala",Armausadamuerte:"Arma de fuego"})
-CREATE(Sen:Sentencia{Estadocaso:"Resuelto",
+CREATE(Muerte9:Tipo{Causamuerte:"Impacto de bala",Armausadamuerte:"Arma de fuego"})
+CREATE(Sen9:Sentencia{Estadocaso:"Resuelto",
 	Situacionagresor:"Fallecido",
 	Sentencia:"",
 	Testigos:""})
-CREATE(Not:Noticia{URL1:"https://www.codigosanluis.com/sujeto-mata-esposa-suicida/
-",FechaUrl1:"21/1/2019",
+CREATE(Not9:Noticia{URL1:"https://www.codigosanluis.com/sujeto-mata-esposa-suicida/",FechaUrl1:"21/1/2019",
 	FechaUrl1:"",
 	TextoUrl1:"",
 	ClaveUrl1:"",
@@ -480,18 +387,7 @@ CREATE(Not:Noticia{URL1:"https://www.codigosanluis.com/sujeto-mata-esposa-suicid
 	ClaveUrl3:"",
 	AutorUr3:"",
 	CategoriaUrl3:""})
-CREATE(Maria)-[:Murio]->(Muerte)
-CREATE(Maria)-[:Paismuerte]->(Mexico)
-CREATE(Maria)-[:Añomuerte]->(Fecha)
-CREATE(Maria)-[:Agresor]->(Apolonio)
-CREATE(Maria)-[:Estadocaso]->(Sen)
-CREATE(Maria)-[:Noticia]->(Not)
 
-
-
-
-CREATE(Fecha:Año{FechaM:"2018"})
-CREATE(Mexico:Zona{Pais:"Mexico"})
 CREATE(Amaydani:Victima{Fechafeminicidio:"30/1/2018",
 	Horamuerte:"9:30:00 a. m.",
 	Lugarfeminicidio:"Parte posterior del palacio municipal",
@@ -502,7 +398,7 @@ CREATE(Amaydani:Victima{Fechafeminicidio:"30/1/2018",
 	Edadvictima:"24 años",
 	Nacionalidadvictima:"Mexicana",
 	Ocupacionvictima:"Licenciada en Nutricion"})
-CREATE(Jose:Agresor{NomAgresor:"Jose",
+CREATE(Jose:Agresor10{NomAgresor:"Jose",
 	Apellidoagresor:"L.R",
 	Edadagresor:"24 años",
 	Nacionalidadagresor:"Mexicano",
@@ -510,12 +406,12 @@ CREATE(Jose:Agresor{NomAgresor:"Jose",
 	Relacionvictima:"Ex novio",
 	Tiemporelacion:"",
 	Agresionprevia:""})
-CREATE(Muerte:Tipo{Causamuerte:"Impacto con arma de Fuego",Armausadamuerte:"Arma de fuego"})
-CREATE(Sen:Sentencia{Estadocaso:"En investigacion",
+CREATE(Muerte10:Tipo{Causamuerte:"Impacto con arma de Fuego",Armausadamuerte:"Arma de fuego"})
+CREATE(Sen10:Sentencia{Estadocaso:"En investigacion",
 	Situacionagresor:"Profugo",
 	Sentencia:"",
 	Testigos:"Vecinos de la Victima"})
-CREATE(Not:Noticia{URL1:"https://www.nssoaxaca.com/2018/01/30/alertan-sobre-primer-feminicidio-del-ano-en-oaxaca/",
+CREATE(Not10:Noticia{URL1:"https://www.nssoaxaca.com/2018/01/30/alertan-sobre-primer-feminicidio-del-ano-en-oaxaca/",
 	FechaUrl1:"16/1/2019",
 	TextoUrl1:"",
 	ClaveUrl1:"Femicidio",
@@ -533,18 +429,8 @@ CREATE(Not:Noticia{URL1:"https://www.nssoaxaca.com/2018/01/30/alertan-sobre-prim
 	ClaveUrl3:"Femicidio",
 	AutorUr3:"Esteban Marcial",
 	CategoriaUrl3:""})
-CREATE(Amaydani)-[:Murio]->(Muerte)
-CREATE(Amaydani)-[:Paismuerte]->(Mexico)
-CREATE(Amaydani)-[:Añomuerte]->(Fecha)
-CREATE(Amaydani)-[:Agresor]->(Jose)
-CREATE(Amaydani)-[:Estadocaso]->(Sen)
-CREATE(Amaydani)-[:Noticia]->(Not)
 
 
-
-
-CREATE(Fecha:Año{FechaM:"2018"})
-CREATE(Mexico:Zona{Pais:"Mexico"})
 CREATE(Kimberly
 :Victima{Fechafeminicidio:"31/1/2018",
 	Horamuerte:"8:11:00 p. m.",
@@ -556,7 +442,7 @@ CREATE(Kimberly
 	Edadvictima:"17 Años",
 	Nacionalidadvictima:"Mexicana",
 	Ocupacionvictima:""})
-CREATE(Bladimir:Agresor{NomAgresor:"Bladimir",
+CREATE(Bladimir:Agresor11{NomAgresor:"Bladimir",
 	Apellidoagresor:"N",
 	Edadagresor:"43 años",
 	Nacionalidadagresor:"Mexicano",
@@ -572,13 +458,12 @@ CREATE(Francisco:Agresor{NomAgresor:"Francisco",
 	Relacionvictima:"",
 	Tiemporelacion:"",
 	Agresionprevia:""})
-CREATE(Muerte:Tipo{Causamuerte:"Secuestro y Ejecutamiento
-",Armausadamuerte:""})
-CREATE(Sen:Sentencia{Estadocaso:"Resuelto",
+CREATE(Muerte11:Tipo{Causamuerte:"Secuestro y Ejecutamiento",Armausadamuerte:""})
+CREATE(Sen11:Sentencia{Estadocaso:"Resuelto",
 	Situacionagresor:"Preso",
 	Sentencia:"Prision",
 	Testigos:""})
-CREATE(Not:Noticia{URL1:"",
+CREATE(Not11:Noticia{URL1:"",
 	FechaUrl1:"",
 	TextoUrl1:"",
 	ClaveUrl1:"",
@@ -596,10 +481,83 @@ CREATE(Not:Noticia{URL1:"",
 	ClaveUrl3:"",
 	AutorUr3:"",
 	CategoriaUrl3:""})
-CREATE(Kimberly)-[:Murio]->(Muerte)
+
+
+
+CREATE(Esther)-[:Murio]->(Muerte1)
+CREATE(Esther)-[:Paismuerte]->(Mexico)
+CREATE(Esther)-[:Añomuerte]->(Fecha)
+CREATE(Esther)-[:Agresor]->(José)
+CREATE(Esther)-[:Estadocaso]->(Sen1)
+CREATE(Esther)-[:Noticia]->(Not1)
+
+CREATE(Maribel)-[:Murio]->(Muerte2)
+CREATE(Maribel)-[:Paismuerte]->(Mexico)
+CREATE(Maribel)-[:Añomuerte]->(Fecha)
+CREATE(Maribel)-[:Agresor]->(Agustín)
+CREATE(Maribel)-[:Estadocaso]->(Sen2)
+CREATE(Maribel)-[:Noticia]->(Not2)
+
+CREATE(Roselia)-[:Murio]->(Muerte3)
+CREATE(Roselia)-[:Paismuerte]->(Mexico)
+CREATE(Roselia)-[:Añomuerte]->(Fecha)
+CREATE(Roselia)-[:Agresor]->(German)
+CREATE(Roselia)-[:Estadocaso]->(Sen3)
+CREATE(Roselia)-[:Noticia]->(Not3)
+
+CREATE(Diana)-[:Murio]->(Muerte4)
+CREATE(Diana)-[:Paismuerte]->(Mexico)
+CREATE(Diana)-[:Añomuerte]->(Fecha)
+CREATE(Diana)-[:Agresor]->(Sergio)
+CREATE(Diana)-[:Estadocaso]->(Sen4)
+CREATE(Diana)-[:Noticia]->(Not4)
+
+CREATE(Magdalena)-[:Murio]->(Muerte5)
+CREATE(Magdalena)-[:Paismuerte]->(Mexico)
+CREATE(Magdalena)-[:Añomuerte]->(Fecha)
+CREATE(Magdalena)-[:Agresor]->(Cesar)
+CREATE(Magdalena)-[:Estadocaso]->(Sen5)
+CREATE(Magdalena)-[:Noticia]->(Not5)
+
+CREATE(Erika)-[:Murio]->(Muerte6)
+CREATE(Erika)-[:Paismuerte]->(Mexico)
+CREATE(Erika)-[:Añomuerte]->(Fecha)
+CREATE(Erika)-[:Agresor]->(Josee)
+CREATE(Erika)-[:Estadocaso]->(Sen6)
+CREATE(Erika)-[:Noticia]->(Not6)
+
+CREATE(Paola)-[:Murio]->(Muerte7)
+CREATE(Paola)-[:Paismuerte]->(Mexico)
+CREATE(Paola)-[:Añomuerte]->(Fecha)
+CREATE(Paola)-[:Agresor]->(Ramon)
+CREATE(Paola)-[:Estadocaso]->(Sen7)
+CREATE(Paola)-[:Noticia]->(Not7)
+
+CREATE(Bertha)-[:Murio]->(Muerte8)
+CREATE(Bertha)-[:Paismuerte]->(Mexico)
+CREATE(Bertha)-[:Añomuerte]->(Fecha)
+CREATE(Bertha)-[:Agresor]->(Pedro)
+CREATE(Bertha)-[:Estadocaso]->(Sen8)
+CREATE(Bertha)-[:Noticia]->(Not8)
+
+CREATE(Maria)-[:Murio]->(Muerte9)
+CREATE(Maria)-[:Paismuerte]->(Mexico)
+CREATE(Maria)-[:Añomuerte]->(Fecha)
+CREATE(Maria)-[:Agresor]->(Apolonio)
+CREATE(Maria)-[:Estadocaso]->(Sen9)
+CREATE(Maria)-[:Noticia]->(Not9)
+
+CREATE(Amaydani)-[:Murio]->(Muerte10)
+CREATE(Amaydani)-[:Paismuerte]->(Mexico)
+CREATE(Amaydani)-[:Añomuerte]->(Fecha)
+CREATE(Amaydani)-[:Agresor]->(Jose)
+CREATE(Amaydani)-[:Estadocaso]->(Sen10)
+CREATE(Amaydani)-[:Noticia]->(Not10)
+
+CREATE(Kimberly)-[:Murio]->(Muerte11)
 CREATE(Kimberly)-[:Paismuerte]->(Mexico)
 CREATE(Kimberly)-[:Añomuerte]->(Fecha)
 CREATE(Kimberly)-[:Agresor]->(Bladimir)
 CREATE(Kimberly)-[:Agresor]->(Francisco)
-CREATE(Kimberly)-[:Estadocaso]->(Sen)
-CREATE(Kimberly)-[:Noticia]->(Not)
+CREATE(Kimberly)-[:Estadocaso]->(Sen11)
+CREATE(Kimberly)-[:Noticia]->(Not11)
